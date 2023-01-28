@@ -1,0 +1,37 @@
+mikdir testdir
+cd testdir
+git init
+
+// クローン
+git clone [HTTPS GIT LINK]
+
+// Gitのリポジトリに移動
+cd [GIT REPOSITORY]
+
+// 新しいブランチ作成
+git chackout -b [NEW BRANCH NAME]
+
+// 現在のブランチを確認
+git branch
+
+vi test.txt
+
+// ファイルの更新ステータスを確認
+git status
+
+// ステージングに上げる
+git add test.txt
+
+// ファイルの更新ステータスを確認
+git status
+
+// コミット＆コミットのコメント
+git commit -m "コメント内容"
+
+※ 「Author identity unknown」と出たら
+　git config --global user.email "you@example.com"
+　git config --global user.name "Your Name"
+　でgitのemailとusernameを登録する
+
+// リモートへプッシュ
+git push origin [BRANCH]
