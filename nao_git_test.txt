@@ -35,3 +35,12 @@ git commit -m "コメント内容"
 
 // リモートへプッシュ
 git push origin [BRANCH]
+
+
+// プルする方法
+// プルされたいローカルブランチに移動
+git checkout [BRANCH]
+
+// プルしたいリモートブランチを指定してプル
+git pull origin [BRANCH]
+
